@@ -1,0 +1,213 @@
+.bg-utama {
+  background: #26a793;
+}
+
+.btn-utama {
+  background: #26a793;
+  border: none; /* <-- This thing here */
+  border: solid 1px #26a793;
+  border-radius: 0px;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+}
+
+section {
+  padding-bottom: 100px;
+  width: 500px;
+  height: auto;
+  background-color: white;
+}
+section .header {
+  width: 100%;
+  height: 150px;
+  background: #288f98;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+section .header .title h4 {
+  color: #F9F9FB;
+}
+section .header .title p {
+  line-height: 0px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400 !important;
+}
+section .banner {
+  margin-top: -60px;
+}
+section .menu img {
+  width: 75px;
+}
+section .menu p {
+  font-size: 11px;
+}
+section .agenda p {
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: 400 !important;
+}
+section .footer {
+  width: 500px;
+}
+section .navbar-bottom {
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 75px;
+  background: #FFFFFF;
+}
+section .navbar-bottom .nav__link {
+  font-family: "Modern Era", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  flex: 1;
+  font-size: 10px;
+  color: #CCCCCC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  position: relative;
+  /* bottom: 3px; */
+}
+section .navbar-bottom a:hover {
+  font-size: 10px;
+  color: #288f98 !important;
+}
+section .navbar-bottom a:hover i:before {
+  /* font-size: 10px; */
+  color: #288f98 !important;
+}
+section .navbar-bottom i {
+  /* font-family: 'Modern Era',sans-serif; */
+  text-align: center;
+  flex: 1;
+  font-size: 25px;
+  color: #CCCCCC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  position: relative;
+  bottom: 3px;
+}
+section .navbar-bottom .circle-button {
+  top: -19%;
+  /* width: 83px; */
+  height: 67px;
+  background: #26a793;
+  border-radius: 53%;
+  /* max-width: 80vh; */
+  width: 71px;
+  position: absolute;
+  padding: -8px;
+}
+section .navbar-bottom .circle-button img {
+  width: 33px;
+}
+section .navbar-bottom .circle-button span {
+  color: white;
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+section .navbar-bottom .pesan {
+  margin-right: 89px;
+}
+section .header-login {
+  padding-top: 80px;
+}
+section .header-login h5 {
+  font-size: 20px;
+  color: #4D4D4D;
+  font-weight: 500 !important;
+}
+section .header-login p {
+  color: #288f98 !important;
+  font-size: 14px;
+  font-weight: 400 !important;
+}
+section .header-form {
+  margin-top: 50px;
+}
+section .header-form .form-group {
+  margin-bottom: 20px;
+}
+section .header-form .form-group label {
+  margin-bottom: 10px;
+  color: #4D4D4D !important;
+  font-size: 14px;
+  font-weight: 400 !important;
+}
+section .header-form .form-group .form-control {
+  height: 50px;
+  margin: 0 auto;
+  border: none; /* <-- This thing here */
+  border: solid 1px #ccc;
+  border-radius: 0px;
+}
+section .header-form .form-group .form-control:focus {
+  box-shadow: none;
+}
+section .header-form .form-group span {
+  color: #4D4D4D !important;
+  font-size: 14px;
+  font-weight: 400 !important;
+}
+section .header-form .form-group p {
+  color: #4D4D4D;
+  font-size: 14px;
+  font-weight: 400 !important;
+}
+section .header-form .form-group .lupa-password {
+  color: #26a793;
+}
+section .header-form .form-group a {
+  text-decoration: none;
+}
+section .content {
+  margin-top: -120px;
+}
+section .content .frame {
+  min-height: 100vh;
+}
+section .content .frame img {
+  max-width: 55px;
+}
+section .content .card .card-body p {
+  color: #4D4D4D !important;
+  font-size: 12px;
+  font-weight: 400 !important;
+}
+section .content .card .card-body .profile img {
+  margin-bottom: 10px;
+}
+section .content .card .card-body .profile p {
+  color: #4D4D4D !important;
+  line-height: 0;
+  font-size: 12px;
+  font-weight: 400 !important;
+}
+section .content .card .card-body .datadetail p {
+  color: #4D4D4D !important;
+  line-height: 0;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+section .content .card .tagihan h5 {
+  line-height: 0;
+}/*# sourceMappingURL=style.css.map */
